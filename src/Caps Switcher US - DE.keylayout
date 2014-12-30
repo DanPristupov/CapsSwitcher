@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 1.8b5 on 2008-03-04 at 09:32 (MSK)-->
-<!--Last edited by Ukelele version 2.2.8 on 2014-12-30 at 11:03 (CET)-->
+<!--Last edited by Ukelele version 2.2.8 on 2014-12-30 at 11:08 (CET)-->
 <keyboard group="7" id="19501" name="CapsSwitcher US - DE" maxout="1">
     <layouts>
         <layout first="0" last="17" modifiers="Modifiers" mapSet="ANSI"/>
@@ -373,7 +373,7 @@
             <key code="21" output="4"/>
             <key code="22" output="6"/>
             <key code="23" output="5"/>
-            <key code="24" output="´"/>
+            <key code="24" action="´"/>
             <key code="25" output="9"/>
             <key code="26" output="7"/>
             <key code="27" output="ß"/>
@@ -869,30 +869,37 @@
         <action id="  1">
             <when state="none" output=" "/>
             <when state="State ^" output="´"/>
+            <when state="State ´" output="´"/>
         </action>
         <action id="  2">
             <when state="none" output=" "/>
             <when state="State ^" output="´"/>
+            <when state="State ´" output="´"/>
         </action>
         <action id="A">
             <when state="none" output="A"/>
             <when state="State ^" output="Â"/>
+            <when state="State ´" output="Á"/>
         </action>
         <action id="E">
             <when state="none" output="E"/>
             <when state="State ^" output="Ê"/>
+            <when state="State ´" output="É"/>
         </action>
         <action id="I">
             <when state="none" output="I"/>
             <when state="State ^" output="Î"/>
+            <when state="State ´" output="Í"/>
         </action>
         <action id="O">
             <when state="none" output="O"/>
             <when state="State ^" output="Ô"/>
+            <when state="State ´" output="Ó"/>
         </action>
         <action id="U">
             <when state="none" output="U"/>
             <when state="State ^" output="Û"/>
+            <when state="State ´" output="Ú"/>
         </action>
         <action id="^">
             <when state="none" next="State ^"/>
@@ -900,6 +907,7 @@
         <action id="a">
             <when state="none" output="a"/>
             <when state="State ^" output="â"/>
+            <when state="State ´" output="á"/>
         </action>
         <action id="a 1">
             <when state="none" output="a"/>
@@ -910,6 +918,7 @@
         <action id="e 1">
             <when state="none" output="e"/>
             <when state="State ^" output="ê"/>
+            <when state="State ´" output="é"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
@@ -917,6 +926,7 @@
         <action id="i 1">
             <when state="none" output="i"/>
             <when state="State ^" output="î"/>
+            <when state="State ´" output="í"/>
         </action>
         <action id="o">
             <when state="none" output="o"/>
@@ -924,6 +934,7 @@
         <action id="o 1">
             <when state="none" output="o"/>
             <when state="State ^" output="ô"/>
+            <when state="State ´" output="ó"/>
         </action>
         <action id="u">
             <when state="none" output="u"/>
@@ -931,9 +942,14 @@
         <action id="u 1">
             <when state="none" output="u"/>
             <when state="State ^" output="û"/>
+            <when state="State ´" output="ú"/>
+        </action>
+        <action id="´">
+            <when state="none" next="State ´"/>
         </action>
     </actions>
     <terminators>
         <when state="State ^" output="^"/>
+        <when state="State ´" output="´"/>
     </terminators>
 </keyboard>
