@@ -8,9 +8,12 @@ Switch your keyboard layouts by CapsLock.
 
 TODO:
 
-###What is that?###List of layouts (with screenshots):
+###What is that?###List of layouts (add screenshots):
+U.S. - Russian PC
+U.S. - German
 
 ###How to install.
+Copy the layout file to the /Library/KeyboardLayouts folder and select it in the Keyboard Preferences.
 
 ###How to contribute
 - There's a bug! -> Create an issue
