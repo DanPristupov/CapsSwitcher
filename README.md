@@ -18,7 +18,7 @@ TODO: add image
 Copy the layout file to the /Library/KeyboardLayouts folder and select it in the Keyboard Preferences.
 
 ###Download links
-- [U.S. - Russian PC] (https://github.com/DanPristupov/CapsSwitcher/blob/master/src/Caps%20Switcher%20US%20-%20RU%20PC.keylayout)
+- [U.S. - Russian PC] (https://github.com/DanPristupov/CapsSwitcher/raw/master/src/Caps%20Switcher%20US%20-%20RU%20PC.keylayout)
 - [U.S. - German] (https://github.com/DanPristupov/CapsSwitcher/raw/master/src/Caps%20Switcher%20US%20-%20DE.keylayout)
 
 ###How to contribute
