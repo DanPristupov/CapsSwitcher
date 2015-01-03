@@ -12,7 +12,7 @@ The main idea is that:
 ![Demo](doc/images/U.S. - Russian PC.gif)
 
 - U.S. - German
-TODO: add image
+![Demo](doc/U.S. - German.gif)
 
 ###How to install.
 Copy the layout file to the /Library/KeyboardLayouts folder and select it in the Keyboard Preferences.
